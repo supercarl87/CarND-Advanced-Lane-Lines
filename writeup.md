@@ -13,13 +13,6 @@ The goals / steps of this project are the following:
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
 [//]: # (Image References)
-
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image6]: ./examples/example_output.jpg "Output"
 [original]: ./output_images/original.jpg "Original"
 [binary_warped]: ./output_images/binary_warped.jpg "binary_warped"
 [color_binary]: ./output_images/color_binary.jpg "color_binary"
@@ -118,3 +111,6 @@ Here's a [link to my video result](./project_video_output.mp4)
 I think the perspective transforms is the one that takes a lot of time to understand and process, since I start with the thinking that I need different parameter for each image, and need to change it dynamically. The existing parameter for transforms will need to turned for different video or different car.  
 
 To make the pipeline more robust, I think we can implement look ahead filter which each frame of video can utilize the information from previous detection and the output will not change significantly for each frame.
+
+### Reference
+[Self-Driving Car Project Q&A](https://www.youtube.com/watch?v=vWY8YUayf9Q&index=4&list=PLAwxTw4SYaPkz3HerxrHlu1Seq8ZA7-5P&t=5013s()
